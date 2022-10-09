@@ -49,6 +49,14 @@ namespace ExtensionsWithLinq
             Console.WriteLine(employees.IndexOf(x => x.Name.Contains("Mushtaq")));
 
             Console.ReadLine();
+
+            /*List<Employee> employees = new List<Employee>();
+            employees.IndexOf(x => x.Name.Contains("Mushtaq"));
+            string str = "test";
+            Console.WriteLine(str.IsNullOrEmpty());
+            object[] objArray = new object[10];
+            objArray.Clear();*/
+
         }
 
         static void AddEmployees()
